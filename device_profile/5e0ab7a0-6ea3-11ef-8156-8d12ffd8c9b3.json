@@ -5,7 +5,10 @@
     "defaultDashboardId" : null,
     "defaultEdgeRuleChainId" : null,
     "defaultQueueName" : null,
-    "defaultRuleChainId" : null,
+    "defaultRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "c95e9630-6e6b-11ef-a1aa-e51aba1ce3d5"
+    },
     "description" : null,
     "externalId" : {
       "entityType" : "DEVICE_PROFILE",
@@ -17,7 +20,7 @@
       "id" : "5e0ab7a0-6ea3-11ef-8156-8d12ffd8c9b3"
     },
     "image" : null,
-    "name" : "bus",
+    "name" : "bus device",
     "profileData" : {
       "alarms" : [ {
         "alarmType" : "Speed limit",
