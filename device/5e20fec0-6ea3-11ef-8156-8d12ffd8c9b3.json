@@ -80,6 +80,14 @@
       "lastUpdateTs" : 1725945911246,
       "longValue" : null,
       "strValue" : "branch"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "watch",
+      "lastUpdateTs" : 1726112903190,
+      "longValue" : null,
+      "strValue" : "blue"
     } ],
     "SHARED_SCOPE" : [ ]
   }
