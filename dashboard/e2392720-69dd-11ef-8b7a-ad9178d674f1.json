@@ -3844,6 +3844,46 @@
           "row" : 0,
           "col" : 0,
           "id" : "8e6f6901-9fb3-6828-f517-0bef322b599a"
+        },
+        "fc45edfb-495d-6948-8f27-c69169383136" : {
+          "typeFullFqn" : "tenant.uptime_widget",
+          "type" : "timeseries",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : "",
+              "entityAliasId" : "c79ffe24-9aa3-2655-e41c-9863d27a5115",
+              "dataKeys" : [ {
+                "name" : "temperature",
+                "type" : "timeseries",
+                "label" : "temperature",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.47544049186244464
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "uptime widget",
+            "useDashboardTimewindow" : true,
+            "displayTimewindow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "fc45edfb-495d-6948-8f27-c69169383136"
         }
       },
       "states" : {
@@ -4116,6 +4156,12 @@
                   "sizeY" : 1,
                   "row" : 2,
                   "col" : 0
+                },
+                "fc45edfb-495d-6948-8f27-c69169383136" : {
+                  "sizeX" : 4,
+                  "sizeY" : 6,
+                  "row" : 3,
+                  "col" : 20
                 }
               },
               "gridSettings" : {
@@ -4279,9 +4325,9 @@
           "historyType" : 1,
           "fixedTimewindow" : {
             "startTimeMs" : 1725820200000,
-            "endTimeMs" : 1726228435043
+            "endTimeMs" : 1726229301861
           },
-          "interval" : 817000
+          "interval" : 819000
         },
         "aggregation" : {
           "type" : "AVG",
