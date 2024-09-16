@@ -9,40 +9,33 @@
         "sortOrder" : "DESC"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "title",
+        "key" : "name",
         "sortOrder" : "NONE"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "email",
+        "key" : "device_profile",
         "sortOrder" : "NONE"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "country",
-        "sortOrder" : "NONE"
-      }, {
-        "type" : "ENTITY_FIELD",
-        "key" : "city",
+        "key" : "label",
         "sortOrder" : "NONE"
       } ],
       "settings" : { },
       "actions" : { }
     },
     "edgeGroupAll" : false,
-    "externalId" : {
-      "entityType" : "ENTITY_GROUP",
-      "id" : "c967e500-6e6b-11ef-a1aa-e51aba1ce3d5"
-    },
+    "externalId" : null,
     "groupAll" : true,
     "id" : {
       "entityType" : "ENTITY_GROUP",
-      "id" : "c967e500-6e6b-11ef-a1aa-e51aba1ce3d5"
+      "id" : "00a49081-7408-11ef-8e72-b17ae3f71ba4"
     },
     "name" : "All",
     "ownerId" : {
-      "entityType" : "TENANT",
-      "id" : "cdc968b0-54b4-11ef-aa15-a127638e3a77"
+      "entityType" : "CUSTOMER",
+      "id" : "841d1220-6f71-11ef-aaa8-93a44246890f"
     },
-    "type" : "CUSTOMER"
+    "type" : "DEVICE"
   },
   "relations" : [ ],
   "attributes" : {
