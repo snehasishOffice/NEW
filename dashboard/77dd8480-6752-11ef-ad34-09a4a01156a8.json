@@ -4452,10 +4452,10 @@
             "main" : {
               "widgets" : {
                 "b89177ac-8f67-3ae5-dfc8-945d995ced41" : {
-                  "sizeX" : 16,
+                  "sizeX" : 1,
                   "sizeY" : 17,
                   "row" : 0,
-                  "col" : 16
+                  "col" : 31
                 },
                 "03d839be-999a-b952-07f5-d157d6da78aa" : {
                   "sizeX" : 32,
@@ -4500,10 +4500,10 @@
                   "col" : 0
                 },
                 "5742a2e9-2f02-6097-d05f-b7f2a01891eb" : {
-                  "sizeX" : 1330,
+                  "sizeX" : 674,
                   "sizeY" : 298,
                   "row" : 0,
-                  "col" : 64
+                  "col" : 720
                 }
               },
               "gridSettings" : {
