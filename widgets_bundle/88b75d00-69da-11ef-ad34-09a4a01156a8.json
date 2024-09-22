@@ -13,8 +13,7 @@
     "order" : null,
     "title" : "Snehasish(seple)"
   },
-  "fqns" : [ "navbar", "count_device_widget", "branch_header", "branch_table", "branch_header_widget", "user_table", "uptime_widget", "cctv_widget", "system_status_widget" ],
-  "relations" : [ ],
+  "fqns" : [ "navbar", "count_device_widget", "branch_header", "branch_table", "branch_header_widget", "user_table", "uptime_widget", "cctv_widget", "system_status_widget", "navbar22" ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   }
