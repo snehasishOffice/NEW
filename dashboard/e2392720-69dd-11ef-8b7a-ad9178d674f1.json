@@ -3832,16 +3832,16 @@
             "main" : {
               "widgets" : {
                 "4bf838c2-143b-e322-cc00-222d3097bb5c" : {
-                  "sizeX" : 43,
-                  "sizeY" : 3,
+                  "sizeX" : 6,
+                  "sizeY" : 16,
                   "row" : 0,
                   "col" : 0
                 },
                 "33e9fdbc-d86d-1b4f-81d9-726bdf1ab844" : {
                   "sizeX" : 14,
                   "sizeY" : 12,
-                  "row" : 3,
-                  "col" : 0
+                  "row" : 0,
+                  "col" : 6
                 },
                 "b8143d93-d1d3-2c6d-8b8f-3cdacb57a98e" : {
                   "sizeX" : 26,
