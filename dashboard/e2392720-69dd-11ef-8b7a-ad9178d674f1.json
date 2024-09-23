@@ -990,61 +990,6 @@
           "col" : 0,
           "id" : "00e26e66-440c-0e84-000a-05bf59e1770c"
         },
-        "225ea4ca-a736-4d05-18d3-7109946a331d" : {
-          "typeFullFqn" : "tenant.branch_header_widget",
-          "type" : "static",
-          "sizeX" : 7.5,
-          "sizeY" : 3,
-          "config" : {
-            "datasources" : [ {
-              "type" : "static",
-              "name" : "function",
-              "dataKeys" : [ {
-                "name" : "f(x)",
-                "type" : "function",
-                "label" : "Random",
-                "color" : "#2196f3",
-                "settings" : { },
-                "_hash" : 0.15479322438769105,
-                "funcBody" : "var value = prevValue + Math.random() * 100 - 50;\nvar multiplier = Math.pow(10, 2 || 0);\nvar value = Math.round(value * multiplier) / multiplier;\nif (value < -1000) {\n\tvalue = -1000;\n} else if (value > 1000) {\n\tvalue = 1000;\n}\nreturn value;"
-              } ]
-            } ],
-            "timewindow" : {
-              "realtime" : {
-                "timewindowMs" : 60000
-              }
-            },
-            "showTitle" : false,
-            "backgroundColor" : "rgb(255, 255, 255)",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "8px",
-            "settings" : {
-              "cardHtml" : "<div class='card'>HTML code here</div>",
-              "cardCss" : ".card {\n    font-weight: bold;\n    font-size: 32px;\n    color: #999;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}"
-            },
-            "title" : "Branch Header Widget",
-            "dropShadow" : true,
-            "actions" : {
-              "elementClick" : [ {
-                "name" : "home",
-                "icon" : "more_horiz",
-                "useShowWidgetActionFunction" : null,
-                "showWidgetActionFunction" : "return true;",
-                "type" : "updateDashboardState",
-                "targetDashboardStateId" : "home",
-                "setEntityId" : false,
-                "stateEntityParamName" : null,
-                "openRightLayout" : false,
-                "openInSeparateDialog" : false,
-                "openInPopover" : false,
-                "id" : "5607c454-34e3-44b3-77e8-efa2a6bb64c2"
-              } ]
-            }
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "225ea4ca-a736-4d05-18d3-7109946a331d"
-        },
         "fc768f7f-0f96-85b1-efa2-ac0693280362" : {
           "typeFullFqn" : "tenant.user_table",
           "type" : "latest",
@@ -3213,21 +3158,15 @@
             "main" : {
               "widgets" : {
                 "56479a46-78eb-8368-b298-b63d641a170e" : {
-                  "sizeX" : 24,
-                  "sizeY" : 9,
-                  "row" : 3,
-                  "col" : 0
+                  "sizeX" : 20,
+                  "sizeY" : 11,
+                  "row" : 0,
+                  "col" : 4
                 },
                 "00e26e66-440c-0e84-000a-05bf59e1770c" : {
-                  "sizeX" : 24,
-                  "sizeY" : 2,
+                  "sizeX" : 4,
+                  "sizeY" : 11,
                   "row" : 0,
-                  "col" : 0
-                },
-                "225ea4ca-a736-4d05-18d3-7109946a331d" : {
-                  "sizeX" : 24,
-                  "sizeY" : 1,
-                  "row" : 2,
                   "col" : 0
                 }
               },
