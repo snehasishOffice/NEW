@@ -2924,7 +2924,7 @@
         },
         "alarmsList" : {
           "name" : "alarmsList",
-          "root" : false,
+          "root" : true,
           "layouts" : {
             "main" : {
               "widgets" : {
@@ -2994,7 +2994,7 @@
         },
         "home" : {
           "name" : "Dexter Dashboard",
-          "root" : true,
+          "root" : false,
           "layouts" : {
             "main" : {
               "widgets" : {
