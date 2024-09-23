@@ -14,7 +14,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "6715ab91-69e7-11ef-8345-c396246a79d7",
+              "deviceId" : "77cd57e0-6752-11ef-ad34-09a4a01156a8",
               "entityAliasId" : null,
               "dataKeys" : [ {
                 "name" : "lat",
