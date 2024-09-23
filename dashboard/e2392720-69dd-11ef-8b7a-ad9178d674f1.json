@@ -3000,13 +3000,13 @@
               "widgets" : {
                 "33e9fdbc-d86d-1b4f-81d9-726bdf1ab844" : {
                   "sizeX" : 14,
-                  "sizeY" : 12,
+                  "sizeY" : 11,
                   "row" : 0,
                   "col" : 4
                 },
                 "148b3e3b-0e87-de29-bebb-b3cfb7b1adf6" : {
                   "sizeX" : 4,
-                  "sizeY" : 12,
+                  "sizeY" : 11,
                   "row" : 0,
                   "col" : 0
                 }
