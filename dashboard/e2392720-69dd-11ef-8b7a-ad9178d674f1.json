@@ -2843,7 +2843,7 @@
                 "openInPopover" : false,
                 "id" : "9506210b-9862-0c64-a74e-e95e34f132c9"
               }, {
-                "name" : "alarmList",
+                "name" : "alarmsList",
                 "icon" : "more_horiz",
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
